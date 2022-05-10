@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Navigo';
+    src: local('Navigo Regular'), local('Navigo-Regular'),
+    url('~@/assets/font/Navigo-Regular.woff2') format('woff2'),
+    url('~@/assets/font/Navigo-Regular.woff') format('woff'),
+    url('~@/assets/font/Navigo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Navigo', sans-serif;
+}

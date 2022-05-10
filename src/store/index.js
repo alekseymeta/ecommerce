@@ -1,4 +1,7 @@
 import { createStore } from 'vuex'
+import {getDataApi} from "@/store/getDataApi";
+import {cart} from "@/store/cart";
+import {global} from "@/store/global";
 
 export default createStore({
   state: {
@@ -8,5 +11,6 @@ export default createStore({
   actions: {
   },
   modules: {
+    getDataApi, cart, global
   }
 })
